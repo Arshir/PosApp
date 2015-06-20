@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E009C70-201A-4464-8DC3-A9B9F47EE3E8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PosAPPDataAccesLayer</RootNamespace>
+    <AssemblyName>PosAPPDataAccesLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customer Info Data\CustomerDataMapper.cs" />
+    <Compile Include="General Info Data\DAL.cs" />
+    <Compile Include="General Info Data\IDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Query Model\Criteria.cs" />
+    <Compile Include="Query Model\CriteriaOperator.cs" />
+    <Compile Include="Query Model\Criterion.cs" />
+    <Compile Include="Query Model\CriterionOperator.cs" />
+    <Compile Include="Query Model\JoinClause.cs" />
+    <Compile Include="Query Model\JoinClauses.cs" />
+    <Compile Include="Query Model\JoinOperator.cs" />
+    <Compile Include="Query Model\OrderClause.cs" />
+    <Compile Include="Query Model\Query.cs" />
+    <Compile Include="Query Model\QueryTranslater.cs" />
+    <Compile Include="Staff Info Data\StaffDataMapper.cs" />
+    <Compile Include="User Account Info Data\UserDataMapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PosAPPBusinessLayer\PosAPPBusinessLayer.csproj">
+      <Project>{d1f391e0-8309-4054-b938-8b920baff0cb}</Project>
+      <Name>PosAPPBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PosAPPDataAccessLayerBase\PosAPPDataAccessLayerBase.csproj">
+      <Project>{cc62ebd9-0a8f-49f2-9282-4d6faafedd0d}</Project>
+      <Name>PosAPPDataAccessLayerBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

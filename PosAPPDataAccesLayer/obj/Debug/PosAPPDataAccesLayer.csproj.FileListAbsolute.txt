@@ -1,0 +1,9 @@
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccesLayer\obj\Debug\PosAPPDataAccesLayer.csprojResolveAssemblyReference.cache
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccesLayer\bin\Debug\PosAPPDataAccesLayer.dll
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccesLayer\bin\Debug\PosAPPDataAccesLayer.pdb
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccesLayer\bin\Debug\PosAPPBusinessLayer.dll
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccesLayer\bin\Debug\PosAPPDataAccessLayerBase.dll
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccesLayer\bin\Debug\PosAPPBusinessLayer.pdb
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccesLayer\bin\Debug\PosAPPDataAccessLayerBase.pdb
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccesLayer\obj\Debug\PosAPPDataAccesLayer.dll
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccesLayer\obj\Debug\PosAPPDataAccesLayer.pdb

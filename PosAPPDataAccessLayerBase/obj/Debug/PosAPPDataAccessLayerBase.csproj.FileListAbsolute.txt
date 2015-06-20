@@ -1,0 +1,4 @@
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccessLayerBase\bin\Debug\PosAPPDataAccessLayerBase.dll
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccessLayerBase\bin\Debug\PosAPPDataAccessLayerBase.pdb
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccessLayerBase\obj\Debug\PosAPPDataAccessLayerBase.dll
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPDataAccessLayerBase\obj\Debug\PosAPPDataAccessLayerBase.pdb

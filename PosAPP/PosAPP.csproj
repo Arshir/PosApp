@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC926320-1A6A-4795-82E9-13D5EFD70BCE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PosAPP</RootNamespace>
+    <AssemblyName>PosAPP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\System Setup Form\FrmItemPricing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\System Setup Form\FrmItemPricing.designer.cs">
+      <DependentUpon>FrmItemPricing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\System Setup Form\FrmItemSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\System Setup Form\FrmItemSetup.designer.cs">
+      <DependentUpon>FrmItemSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sales Form\FrmSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sales Form\FrmSales.designer.cs">
+      <DependentUpon>FrmSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\System Setup Form\FrmServicePlace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\System Setup Form\FrmServicePlace.designer.cs">
+      <DependentUpon>FrmServicePlace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainMDI.designer.cs">
+      <DependentUpon>MainMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\System Setup Form\FrmItemPricing.resx">
+      <DependentUpon>FrmItemPricing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System Setup Form\FrmItemSetup.resx">
+      <DependentUpon>FrmItemSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sales Form\FrmSales.resx">
+      <DependentUpon>FrmSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System Setup Form\FrmServicePlace.resx">
+      <DependentUpon>FrmServicePlace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainMDI.resx">
+      <DependentUpon>MainMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PosAPPBusinessLayer\PosAPPBusinessLayer.csproj">
+      <Project>{d1f391e0-8309-4054-b938-8b920baff0cb}</Project>
+      <Name>PosAPPBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PosAPPDataAccesLayer\PosAPPDataAccesLayer.csproj">
+      <Project>{3e009c70-201a-4464-8dc3-a9b9f47ee3e8}</Project>
+      <Name>PosAPPDataAccesLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PosAPPDataAccessLayerBase\PosAPPDataAccessLayerBase.csproj">
+      <Project>{cc62ebd9-0a8f-49f2-9282-4d6faafedd0d}</Project>
+      <Name>PosAPPDataAccessLayerBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Phantom Tech 2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Forms\Report\" />
+    <Folder Include="Forms\Stock Management Form\" />
+    <Folder Include="Forms\User Account Form\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

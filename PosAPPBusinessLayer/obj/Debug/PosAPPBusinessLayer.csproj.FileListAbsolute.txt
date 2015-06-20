@@ -1,0 +1,4 @@
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPBusinessLayer\bin\Debug\PosAPPBusinessLayer.dll
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPBusinessLayer\bin\Debug\PosAPPBusinessLayer.pdb
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPBusinessLayer\obj\Debug\PosAPPBusinessLayer.dll
+c:\users\issaka faisal\documents\visual studio 2013\Projects\PosAPP Solution\PosAPPBusinessLayer\obj\Debug\PosAPPBusinessLayer.pdb
